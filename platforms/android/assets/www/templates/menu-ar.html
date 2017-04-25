@@ -1,0 +1,84 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content drag-content="false">
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable">
+      <a menu-close href="#/app/main-ar">
+        <div class="menu-logo">
+          <img src="img/vcon2017logo-200.png">
+        </div>
+      </a>
+    </ion-header-bar>
+    <ion-content has-bouncing="false" has-footer="true">
+      <ion-list class="primary">
+
+        <ion-item menu-close href="#/app/main-ar">
+          الرئيسية
+        </ion-item>
+        <ion-item menu-close href="#/app/whatis-ar">
+          ما هو الفي-كون؟
+        </ion-item>
+        <ion-item menu-close href="#/app/allabout-ar">
+          كل ما يخص في-ماليزيا 2017
+        </ion-item>
+        <ion-item menu-close href="#/app/whydo-ar">
+          لماذا افعلها الأن؟
+        </ion-item>
+        <ion-item menu-close href="#/app/mark-ar">
+          ضع علامتك للفي-كون
+        </ion-item>
+        <ion-item menu-close href="#/app/downloads-ar">
+          صور خلفيات #VCON17
+        </ion-item>
+        <ion-item menu-close href="#/app/speakers-ar">
+          المتحدثين
+        </ion-item>
+        <ion-item menu-close href="#/app/newslanding-ar">
+          الأخبار والمستجدات
+        </ion-item>
+        <ion-item menu-close href="#/app/merchandise-ar">
+          المعروضات
+        </ion-item>
+        <ion-item menu-close href="#/app/penang101-ar">
+          بينانج 101
+        </ion-item>
+        <ion-item menu-close href="#/app/ticket-ar">
+          شراء تذكرة
+        </ion-item>
+        <ion-item menu-close href="#/app/faqs-ar">
+          الأسئلة الشائعة
+        </ion-item>
+        <!-- <ion-item menu-close href="#/app/contact-ar">
+          Contact
+        </ion-item> -->
+        <!--
+        <ion-item menu-close ng-click="contact()">
+          Login
+        </ion-item> -->
+      </ion-list>
+
+      <div class="follow">
+        <p> أبدى اعجابك. تابع. شارك. عبر بصخب. #VCON17</p>
+        <p>
+          <a href="#" onclick="window.open('https://www.facebook.com/TheV.official/', '_system', 'location=yes'); return false;"><i class="ion-social-facebook"></i></a>
+            <a href="#" onclick="window.open('https://twitter.com/thev_official', '_system', 'location=yes'); return false;"><i class="ion-social-twitter"></i></a>
+            <a href="#" onclick="window.open('https://www.instagram.com/thev_official/', '_system', 'location=yes'); return false;"><i class="ion-social-instagram"></i></a>
+            <a href="#" onclick="window.open('https://www.snapchat.com/add/thevofficial', '_system', 'location=yes'); return false;"><i class="ion-social-snapchat"></i></a>
+        </p>
+
+      </div>
+
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

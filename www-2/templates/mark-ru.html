@@ -1,0 +1,51 @@
+<ion-view id="mark" class="en" view-title="" hide-nav-bar="true">
+    <ion-header-bar align-title="left">
+      <div class="buttons menuTop">
+        <button class="button ion-navicon" menu-toggle="left"></button>
+      </div>
+    </ion-header-bar>
+  <ion-content has-bouncing="false" padding="false">
+    <header class="mainScr mid">
+      <h1><span class="txt48">Оставь свой след в истории V-Кон</span> </h1>
+    </header>
+
+    <article class="cusContent">
+      <div class="step1" style="display: block">
+      <p class="title">Оставь свой след в истории V-Кон</p>
+      <p class="headline">Оставь частичку магии V-Кон на своих фотографиях с помощью ЭКСКЛЮЗИВНОГО значка #VCON17! Для этого нужно сделать 3 простых действия:</p>
+      <p>1. Загрузить фотографию.<br>
+         2. Выбрать нужный значок<br>
+         3. Кликнуть на ‘MARK IT’<br>
+         4. Загрузить и поделиться своей новой фотографией со значком V-Кон!</p>
+        <a class="button btnClaim">Загрузить фотографию</a>
+    </div>
+
+    <div class="step2" style="display: block">
+        <div class="photo"> <img src=""/> (photo here)</div>
+        <p class="title">Выбрать значок</p>
+        <ion-list>
+          <ion-radio ng-model="choice" ng-value="'A'">  <img src="img/badge-vcon.png" width="100%" height="auto" class="center "></ion-radio>
+          <ion-radio ng-model="choice" ng-value="'B'">  <img src="img/badge-v.png" width="100%" height="auto" class="center "></ion-radio>
+         
+        </ion-list>
+    </div>
+
+    <div class="step3" style="display: block">
+        <p class="title">Загрузить и поделиться</p>
+        <div class="badge"><img src="img/photo-sample.png" width="100%" height="auto" class="center "></div>
+        <div class="row">
+          <div class="col col-50"><a href="" class="button btnClaim">Загрузить</a></div>
+          <div class="col col-50"><a href="" class="button btnClaim">поделиться</a></div>
+        <div>
+
+    </div>
+    </article>
+
+
+
+  </ion-content>
+  <ion-footer-bar align-title="right" class="bar-assertive">
+      <a href="#/app/whydo-ru" nav-direction="back" class="footer-back"><i class="ion-ios-arrow-left"></i></a>
+      <a href="#/app/downloads-ru" nav-direction="forward">Загрузить обои<i class="ion-ios-arrow-right"></i></a>
+  </ion-footer-bar>
+</ion-view>

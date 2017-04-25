@@ -1,0 +1,31 @@
+<ion-view id="news" class="en" view-title="" hide-nav-bar="true">
+    <ion-header-bar align-title="left">
+      <div class="buttons menuTop">
+        <button class="button ion-navicon" menu-toggle="left"></button>
+      </div>
+    </ion-header-bar>
+  <ion-content has-bouncing="false" padding="false">
+    <header class="mainScr mid">
+      <h1>NEWS</h1>
+    </header>
+    <article class="cusContent newsinside">
+      <h3>{{myNews[0].localTitle}}</h3>
+      <div class="date">{{myNews[0].CreatedOnDate}}</div>
+      <div class="insideCont">
+        <img src="{{myNews[0].ImageLink}}">
+        <p ng-bind-html="myNews[0].description"></p>
+      </div>
+
+      <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
+      <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
+      Back to Top
+    </div>
+    </article>
+
+
+
+  </ion-content>
+  <ion-footer-bar align-title="right" class="bar-assertive">
+    <a href="#/app/penang101" nav-direction="forward">Penang 101<i class="ion-ios-arrow-right"></i></a>
+  </ion-footer-bar>
+</ion-view>

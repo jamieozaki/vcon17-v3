@@ -1,0 +1,39 @@
+<ion-view id="splash" class="en splash" view-title="" hide-nav-bar="true" hide-back-button="true">
+  <ion-content has-bouncing="false" padding="false" has-footer="true" scroll="false">
+
+
+    <article class="selectLang">
+      <ion-list>
+        <a href="#/app/splashnext" nav-direction="forward">
+        <ion-radio ng-model="choice" ng-value="'A'" ng-click="getLang(choice)">English</ion-radio>
+        </a>  
+
+        <a href="#/app/splashnext-ar" nav-direction="forward"  ng-click="getLang(choice)">
+        <ion-radio ng-model="choice" ng-value="'B'" dir="RTL">العربية</ion-radio>
+        </a>
+
+        <a href="#/app/splashnext-id" nav-direction="forward"  ng-click="getLang(choice)">
+        <ion-radio ng-model="choice" ng-value="'C'">Bahasa-Indonesia</ion-radio>
+        </a>
+        
+        <a href="#/app/splashnext-fr" nav-direction="forward"  ng-click="getLang(choice)">
+        <ion-radio ng-model="choice" ng-value="'D'">Français </ion-radio >
+        </a>
+
+        <a href="#/app/splashnext-ru" nav-direction="forward"  ng-click="getLang(choice)">
+        <ion-radio ng-model="choice" ng-value="'F'">Русский</ion-radio>        
+        </a>
+        
+        <a href="#/app/splashnext-tr" nav-direction="forward"  ng-click="getLang(choice)">
+        <ion-radio ng-model="choice" ng-value="'E'">Türkçe</ion-radio>
+        </a>
+
+      </ion-list>
+    </article>
+
+  </ion-content>
+  <ion-footer-bar align-title="right" class="bar-assertive">
+    <div class="pagination"><i class="ion-record"></i> <i class="ion-ios-circle-outline"></i></div>
+    <a href="#/app/splashnext" nav-direction="forward">NEXT</a>
+  </ion-footer-bar>
+</ion-view>

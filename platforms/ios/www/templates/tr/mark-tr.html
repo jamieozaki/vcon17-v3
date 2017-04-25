@@ -1,0 +1,49 @@
+<ion-view id="mark" class="en" view-title="" hide-nav-bar="true">
+    <ion-header-bar align-title="left">
+      <div class="buttons menuTop">
+        <button class="button ion-navicon" menu-toggle="left"></button>
+      </div>
+    </ion-header-bar>
+  <ion-content has-bouncing="false" padding="false">
+    <header class="mainScr mid">
+      <h1>In order to be limitless, you need to<br> <span class="txt48">BELIEVE IT.</span> <br><span class="txt16">IT’S ABOUT TIME YOU DO</span></h1>
+    </header>
+
+    <article class="cusContent">
+      <div class="step1" style="display: block">
+      <p class="title">MAKE YOUR V-CON MARK</p>
+      <p class="headline">Stamp your photos with the magic of V-Con with these EXCLUSIVE #VCON17 badges! Just follow these 3 easy steps:</p>
+      <p>1. Upload your photo.<br>
+         2. Choose a badge<br>
+         3. Select ‘MARK IT’<br>
+         4. Download and share your newly marked V-Con photo!</p>
+        <a class="button btnClaim">UPLOAD PHOTO</a>
+    </div>
+
+    <div class="step2" style="display: block">
+        <p class="title">Choose a Badge</p>
+        <ion-list>
+          <ion-radio ng-model="choice" ng-value="'A'">  <img src="img/badge-vcon.png" width="100%" height="auto" class="center "></ion-radio>
+          <ion-radio ng-model="choice" ng-value="'B'">  <img src="img/badge-v.png" width="100%" height="auto" class="center "></ion-radio>
+         
+        </ion-list>
+    </div>
+
+    <div class="step3" style="display: block">
+        <p class="title">Download & Share</p>
+        <div class="badge"><img src="img/photo-sample.png" width="100%" height="auto" class="center "></div>
+        <div class="row">
+          <div class="col col-50"><a href="">Download</a></div>
+          <div class="col col-50"><a href="">Share</a></div>
+        <div>
+
+    </div>
+    </article>
+
+
+
+  </ion-content>
+  <ion-footer-bar align-title="right" class="bar-assertive">
+      <a href="#/app/downloads" nav-direction="forward">EXCLUSIVE DOWNLOADS <i class="ion-ios-arrow-right"></i></a>
+  </ion-footer-bar>
+</ion-view>

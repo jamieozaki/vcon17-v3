@@ -1,0 +1,75 @@
+<ion-view id="main" class="en" view-title="" hide-nav-bar="true">
+  <ion-content has-bouncing="false" padding="false">
+    <ion-header-bar align-title="left">
+      <div class="buttons menuTop">
+        <button class="button ion-navicon" menu-toggle="left"></button>
+      </div>
+    </ion-header-bar>
+    <header class="mainScr">
+      <div class="msg">
+        <h4>MAY 3-7, 2017</h4>
+        <p>SUBTERRANEAN PENANG INTERNATIONAL CONVENTION & EXHIBITION CENTRE, PENANG, MALAYSIA</p>
+      </div>
+      <a class="button buyticket btnPosBttm" href="#" onclick="window.open('http://the-v.net/vshoppe/category/v-malaysia-2017-early-bird-ticket', '_system', 'location=yes'); return false;">
+        Bilet al
+      </a>
+    </header>
+
+    <!-- VCON Categories -->
+    <div class="categories nopad tr">
+      <div class="row nopad">
+        <a href="#/app/whatis-tr" class="col col-50 nopad">
+          <div class="title">V-Con<span class="tinytxt">Nedir?</span> </div>
+        </a>
+        <a href="#/app/allabout-tr" class="col col-50 nopad">
+          <div class="title">
+            V-Malaysia 2017
+            <span class="tinytxt">Hakkında Her şey</span>
+
+          </div>
+        </a>
+      </div>
+      <div class="row nopad">
+        <a href="#/app/mark-tr" class="col col-50 nopad">
+          <div class="title">V-Con İzini Oluştur</div>
+        </a>
+        <a href="#/app/whydo-tr" class="col col-50 nopad">
+          <div class="title"><span class="tinytxt">Neden Şimdi</span>Yapmalısın</div>
+        </a>
+      </div>
+      <div class="row nopad">
+        <a href="#/app/downloads-tr" class="col col-50 nopad">
+          <div class="title" style="font-size: 16px;">Seçkin V-Con 2017 İndirilenler</div>
+        </a>
+        <a href="#/app/penang101-tr" class="col col-50 nopad">
+          <div class="title">PENANG <span class="tinytxt">101</span></div>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="newscat">
+      <h6>Haberler ve Güncellemeler</h6>
+      <div class="row" >
+        <a href="#/app/news?id={{mnews.Title}}" nav-direction="forward"  class="col item"
+		 ng-repeat="mnews in myNews | filter: '2017' | orderBy: 'mnews.CreatedOn'">
+          <img src="{{mnews.ImageLink}}" width="100%" height="auto">
+          <h4>{{mnews.localTitle}}</h4>
+          <h3>in (category) </h3>
+          <div class="row">
+            <span class="col col-50 nopad date">{{mnews.CreatedOnDate}}</span>
+          </div>
+        </a>
+      </div>
+	 </div>
+
+    <a class="button buyticket orange" href="#" onclick="window.open('http://the-v.net/vshoppe/category/v-malaysia-2017-early-bird-ticket', '_system', 'location=yes'); return false;">Bilet al</a>
+
+    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
+      <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
+     BAŞA DÖN
+    </div>
+
+
+  </ion-content>
+</ion-view>

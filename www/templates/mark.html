@@ -1,0 +1,41 @@
+<ion-view id="mark" class="en" view-title="" hide-nav-bar="true">
+    <ion-header-bar align-title="left">
+      <div class="buttons menuTop">
+        <button class="button ion-navicon" menu-toggle="left"></button>
+      </div>
+    </ion-header-bar>
+  <ion-content has-bouncing="false" padding="false">
+    <header class="mainScr mid">
+      <h1><span class="txt48">Make Your V-Con Mark</span> <br></h1>
+    </header>
+
+    <article class="cusContent">
+      <div class="step1" style="display: block">
+      <p class="title">MAKE YOUR V-CON MARK</p>
+      <p class="headline">Stamp your photos with the magic of V-Con with these EXCLUSIVE #VCON17 badges! Just follow these 3 easy steps:</p>
+      <p>1. Upload your photo.<br>
+         2. Select ‘MARK IT’<br>
+         3. Download and share your newly marked V-Con photo!</p>
+        <input type="file" name="UploadedImage" id="sf_db_profile_userupload" />
+    </div>
+
+    <div class="step2" style="display: block">
+        
+    </div>
+
+    <div class="step3" style="display: block">
+        <p class="title">Download & Share</p>
+        <div class="badge"><img id="img" width="100%" height="auto" class="center "></div>
+        <div class="row">
+          <div class="col col-50"><a href="" class="button btnClaim" 
+		  ng-click="downloadFile(finalUrl)">Download</a></div>
+        <div>
+    </div>
+    </article>
+
+  </ion-content>
+  <ion-footer-bar align-title="right" class="bar-assertive">
+      <a href="#/app/whydo" nav-direction="back" class="footer-back"><i class="ion-ios-arrow-left"></i></a>
+      <a href="#/app/downloads" nav-direction="forward">EXCLUSIVE DOWNLOADS <i class="ion-ios-arrow-right"></i></a>
+  </ion-footer-bar>
+</ion-view>

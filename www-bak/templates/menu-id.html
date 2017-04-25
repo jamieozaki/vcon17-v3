@@ -1,0 +1,87 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content drag-content="false">
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable">
+      <a menu-close href="#/app/main">
+        <div class="menu-logo">
+          <img src="img/vcon2017logo-200.png">
+        </div>
+      </a>
+    </ion-header-bar>
+    <ion-content has-bouncing="false" has-footer="true">
+      <ion-list class="primary">
+
+        <ion-item menu-close href="#/app/main-id">
+          Rumah
+        </ion-item>
+        <ion-item menu-close href="#/app/whatis-id">
+          Apa itu V-Con?
+        </ion-item>
+        <ion-item menu-close href="#/app/allabout-id">
+          Semua Tentang V-Malaysia 2017
+        </ion-item>
+        <ion-item menu-close href="#/app/whydo-id">
+          Mengapa Lakukan Sekarang?
+        </ion-item>
+        <ion-item menu-close href="#/app/mark-id">
+          Tandai V-Con Anda
+        </ion-item>
+        <ion-item menu-close href="#/app/downloads-id">
+         Wallpaper #VCON17
+        </ion-item>
+        <ion-item menu-close href="#/app/speakers-id">
+          Pembicara
+        </ion-item>
+        <ion-item menu-close href="#/app/newslanding-id">
+          Berita Dan Kabar Terbaru
+        </ion-item>
+        <ion-item menu-close href="#/app/ticket-id">
+          Beli Tiket
+        </ion-item>
+        <ion-item menu-close href="#/app/penang101-id">
+          Penang 101
+        </ion-item>
+        <ion-item menu-close href="#/app/merchandise-id">
+          Cinderamata
+        </ion-item>
+        <ion-item menu-close href="#/app/faqs-id">
+          T&J
+        </ion-item>
+        <ion-item menu-close href="#/app/contact-id">
+          HUBUNGI KAMI
+        </ion-item>
+        <ion-item menu-close href="#/app/splash">
+          <i class="ion-ios-world-outline"></i> &nbsp; &nbsp; Bahasa-Indonesia
+        </ion-item>
+        <!--
+        <ion-item menu-close ng-click="contact()">
+          Login
+        </ion-item> -->
+      </ion-list>
+
+      <div class="follow">
+        <p>Like. Follow. Share. Ramaikan. #VCON17</p>
+        <p>
+          <a href="#" onclick="window.open('https://www.facebook.com/TheV.official/', '_system', 'location=yes'); return false;"><i class="ion-social-facebook"></i></a>
+            <a href="#" onclick="window.open('https://twitter.com/thev_official', '_system', 'location=yes'); return false;"><i class="ion-social-twitter"></i></a>
+            <a href="#" onclick="window.open('https://www.instagram.com/thev_official/', '_system', 'location=yes'); return false;"><i class="ion-social-instagram"></i></a>
+            <a href="#" onclick="window.open('https://www.snapchat.com/add/thevofficial', '_system', 'location=yes'); return false;"><i class="ion-social-snapchat"></i></a>
+        </p>
+
+      </div>
+
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
