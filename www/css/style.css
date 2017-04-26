@@ -703,6 +703,7 @@ p.teal14 {
   width: 100%;
   margin: 0 auto;
 }
+/*input[type="file"],*/
 .button.btnClaim {
   background: #B24298 none repeat scroll 0 0;
   transition: all 0.35s ease-in-out 0s;
@@ -711,6 +712,29 @@ p.teal14 {
   -o-transition: all 0.35s ease-in-out 0s;
   -webkit-transition: all 0.35s ease-in-out 0s;
 }
+
+#mark .fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    color: #fff;
+    background: #B24298 none repeat scroll 0 0;
+    padding: 10px 0;
+    width: 50%;
+    margin: 0px auto 40px;
+}
+#mark.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
 .button.btnClaim:hover {
   transform: scale(1.05);
   color: #fff;
@@ -1156,3 +1180,20 @@ ion-footer-bar a.back {
 { font-size: 1.2em; }
 
 /* Font size adjustment for larger screens */
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}

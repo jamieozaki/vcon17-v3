@@ -218,7 +218,7 @@ $scope.scrollTop = function(){
 .controller('MarkCtrl', function($scope, $stateParams, $state, $ionicModal, $timeout, $location, $ionicLoading,$ionicScrollDelegate, $ionicPopup, $http,$cordovaFileTransfer, $cordovaFile) {
 
 	$scope.downloadFile = function(val){
-		alert();
+		alert("Your");
 		var downloadProgress = '';
 		var filename = "/BadgeImage.png";
 
@@ -272,7 +272,7 @@ $scope.scrollTop = function(){
 //$scope.finalUrl = "http://cums.the-v.net/app_site.aspx?id=2.jpeg";
 	$('input[type=file]').change(function(){
 		var ranom = createGuid();
-		alert("change" + ranom);
+		alert("Photo successully uploaded. Please wait.");
 		
 		files = $("#sf_db_profile_userupload").prop("files")[0];
 		
@@ -292,7 +292,8 @@ $scope.scrollTop = function(){
 			},
 			error : function(request,error)
 			{
-				alert("Request: "+JSON.stringify(request));
+				// alert("Request: "+JSON.stringify(request));
+				alert("An error occured. Please try again.");
 			}
 		});
 	});

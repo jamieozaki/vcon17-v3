@@ -12,11 +12,14 @@
     <article class="cusContent">
       <div class="step1" style="display: block">
       <p class="title">MAKE YOUR V-CON MARK</p>
-      <p class="headline">Stamp your photos with the magic of V-Con with these EXCLUSIVE #VCON17 badges! Just follow these 3 easy steps:</p>
-      <p>1. Upload your photo.<br>
-         2. Select ‘MARK IT’<br>
-         3. Download and share your newly marked V-Con photo!</p>
-        <input type="file" name="UploadedImage" id="sf_db_profile_userupload" />
+      <p class="headline">Stamp your photos with the magic of V-Con with an EXCLUSIVE #VCON17 badge!<br/> Simply upload a photo, wait for your marked image to load, and DOWNLOAD! Now you have a souvenir to share with your family and friends!</p>
+        <!-- <input type="file" name="UploadedImage" id="sf_db_profile_userupload" /> -->
+        <!--  -->
+        <div class="fileUpload btn btn-primary">
+          <span>Upload Photo</span>
+          <input type="file" class="upload" name="UploadedImage" id="sf_db_profile_userupload"/>
+        </div>
+        <!--  -->
     </div>
 
     <div class="step2" style="display: block">
@@ -27,7 +30,7 @@
         <p class="title">Download & Share</p>
         <div class="badge"><img id="img" width="100%" height="auto" class="center "></div>
         <div class="row">
-          <div class="col col-50"><a href="" class="button btnClaim" 
+          <div class="col"><a href="" class="button btnClaim" 
 		  ng-click="downloadFile(finalUrl)">Download</a></div>
         <div>
     </div>
