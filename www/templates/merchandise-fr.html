@@ -12,31 +12,13 @@
 
       <p class="headline">Visitez le V Booth et mettez vos mains sur ces marchandises EXCLUSIVES du V-Malaysia 2017!</p>
       <div class="merchCont">
-        <div class="item">
+        <div class="item" ng-repeat="imerch in myMerchandise">
           <!-- START MERCHANDISE ITEM-->
-          <div><img src="http://placehold.it/500x400" width="100%" height="auto" class="center "></div>
+          <div><img src="{{imerch.image}}" width="100%" height="auto" class="center "></div>
 
           <div class="row merch-item">
-            <div class="col col-80 merch-text">Title</div>
-            <div class="col col-20 merch-price">RM 50</div>
-          </div>
-        </div>
-        <div class="item">
-          <!-- START MERCHANDISE ITEM-->
-          <div><img src="http://placehold.it/500x400" width="100%" height="auto" class="center "></div>
-
-          <div class="row merch-item">
-            <div class="col col-80 merch-text">Title</div>
-            <div class="col col-20 merch-price">RM 50</div>
-          </div>
-        </div>
-        <div class="item">
-          <!-- START MERCHANDISE ITEM-->
-          <div><img src="http://placehold.it/500x400" width="100%" height="auto" class="center "></div>
-
-          <div class="row merch-item">
-            <div class="col col-80 merch-text">Title</div>
-            <div class="col col-20 merch-price">RM 50</div>
+            <div class="col col-80 merch-text">{{imerch.title}}</div>
+            <div class="col col-20 merch-price">{{imerch.price}}</div>
           </div>
         </div>
 

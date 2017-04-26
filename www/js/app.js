@@ -1459,7 +1459,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         url: '/merchandise-ar',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise.html',
+            templateUrl: 'templates/merchandise-ar.html',
+            controller: 'MerchantCtrl'
           }
         }
       })
@@ -1467,7 +1468,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         url: '/merchandise-fr',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise.html',
+            templateUrl: 'templates/merchandise-fr.html',
+            controller: 'MerchantCtrl'
           }
         }
       })
@@ -1475,7 +1477,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         url: '/merchandise-id',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise.html',
+            templateUrl: 'templates/merchandise-id.html',
+            controller: 'MerchantCtrl'
           }
         }
       })
@@ -1483,7 +1486,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         url: '/merchandise-tr',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise.html',
+            templateUrl: 'templates/merchandise-tr.html',
+            controller: 'MerchantCtrl'
           }
         }
       })
@@ -1491,7 +1495,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         url: '/merchandise-ru',
         views: {
           'menuContent': {
-            templateUrl: 'templates/merchandise.html',
+            templateUrl: 'templates/merchandise-ru.html',
+            controller: 'MerchantCtrl'
           }
         }
       })

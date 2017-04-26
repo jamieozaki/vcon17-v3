@@ -564,7 +564,7 @@ p.teal14 {
 }
 #about .about-title {
   position: absolute;
-  top: 470px;
+  bottom: 100px;
   background-color: #00A7BE;
   left: 0;
   padding: 20px;
@@ -1078,6 +1078,8 @@ p.teal14 {
   line-height: 21px;
   font-family: "LatoLight", Arial, sans-serif;
 }
+
+#contact a { color: #fff; }
 
 #contact.ar article.cusContent p { text-align: center !important; }
 /* Splash */

@@ -218,7 +218,7 @@ $scope.scrollTop = function(){
 .controller('MarkCtrl', function($scope, $stateParams, $state, $ionicModal, $timeout, $location, $ionicLoading,$ionicScrollDelegate, $ionicPopup, $http,$cordovaFileTransfer, $cordovaFile) {
 
 	$scope.downloadFile = function(val){
-		alert("Your");
+		alert("Your photo is being generated.");
 		var downloadProgress = '';
 		var filename = "/BadgeImage.png";
 
