@@ -1085,6 +1085,8 @@ p.teal14 {
 #splash {
   background-color: #2A3A80;
 }
+#splash a { text-decoration: none !important; }
+
 article.selectLang, article.welcomeCont {
   height: 100vh;
   position: relative;
